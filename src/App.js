@@ -18,7 +18,7 @@ function App() {
      const timeout = setInterval(() =>{
       setColor(colors[i]);
       i=(i+1)% colors.length;
-    },5000) 
+    },10000) 
     setIntervalId(timeout);
   }
 
